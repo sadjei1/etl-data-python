@@ -11,7 +11,6 @@ from dotenv import load_dotenv # type: ignore
 load_dotenv()
 
  
-#API_KEY = "edfa38ec81f3f793b22cc65c0d5a4ed2"
 API_KEY = os.getenv("OPEN_WEATHER_API_KEY")
 CITY = "Fargo"
 url = "https://api.openweathermap.org/data/2.5/weather"
